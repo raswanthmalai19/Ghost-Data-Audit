@@ -1,0 +1,6 @@
+# Core (deterministic pipeline)
+pdfplumber>=0.10      # PDF text extraction
+pytesseract>=0.3.10   # OCR wrapper (needs the tesseract binary: brew install tesseract / apt-get install tesseract-ocr)
+Pillow>=10.0          # image loading / preprocessing for OCR and synthetic test screenshots
+# Optional (python3 code/main.py --llm)
+anthropic>=0.74       # Claude intent fallback + screenshot extraction
